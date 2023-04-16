@@ -7,7 +7,7 @@ function Header() {
         <Container>
             <Div1>
                 <Link href='/'>
-                    <div>
+                    <div style={{textDecoration: "none", color: "white", display: "flex" , alignItems: "center"}}>
                         <DiCssdeck/><span>Portfolio</span>
                     </div>
                 </Link>
