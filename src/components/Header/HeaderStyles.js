@@ -23,7 +23,7 @@ export const Nav = styled.div`
   	justify-content: space-around;
 `
 
-export const Div3 = styled.div`
+export const Div2 = styled.div`
 	grid-area: 1 / 5 / 2 / 6;
 	display: flex;
 	justify-content: space-around;
@@ -41,4 +41,18 @@ export const NavLink = styled.nav`
 		opacity: 1;
 		cursor: pointer;
 	}
+`
+
+// Social Icons 
+export const SocialIcons = styled.a`
+    transition: 0.3s ease;
+    color: white;
+    border-radius: 50px;
+    padding: 8px;
+    &:hover {
+        background-color: #212d45;
+        transform: scale(1.2);
+        cursor: pointer;
+        
+    }
 `

@@ -1,6 +1,7 @@
 import { default as Link } from "next/link";
 import { DiCssdeck } from 'react-icons/di'
-import { Container, Div1, Nav, NavLink } from "./HeaderStyles";
+import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai'
+import { Container, Div1, Div2, Nav, NavLink, SocialIcons } from "./HeaderStyles";
 
 function Header() {
     return (
@@ -29,6 +30,17 @@ function Header() {
                     </Link>
                 </li>
             </Nav>
+            <Div2>
+                <SocialIcons href="https://github.com">
+                    <AiFillGithub size="3rem" />
+                </SocialIcons>
+                <SocialIcons href="https://linkedin.com">
+                    <AiFillLinkedin size="3rem" />
+                </SocialIcons>
+                <SocialIcons href="https://twitter.com">
+                    <AiFillTwitterCircle size="3rem" />
+                </SocialIcons>
+            </Div2>
         </Container>
     )
 }
