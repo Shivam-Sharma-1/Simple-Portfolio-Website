@@ -1,34 +1,35 @@
 import { default as Link } from "next/link";
 import { DiCssdeck } from 'react-icons/di'
+import { Container, Div1, Nav, NavLink } from "./HeaderStyles";
 
 function Header() {
     return (
-        <>
-            <div>
+        <Container>
+            <Div1>
                 <Link href='/'>
                     <div>
                         <DiCssdeck/><span>Portfolio</span>
                     </div>
                 </Link>
-            </div>
-            <nav>
+            </Div1>
+            <Nav>
                 <li>
                     <Link href='#projects'>
-                        <p>Projects</p>
+                        <NavLink>Projects</NavLink>
                     </Link>
                 </li>
                 <li>
                     <Link href='#tech'>
-                        <p>Technology</p>
+                        <NavLink>Technology</NavLink>
                     </Link>
                 </li>
                 <li>
                     <Link href='#about'>
-                        <p>About</p>
+                        <NavLink>About</NavLink>
                     </Link>
                 </li>
-            </nav>
-        </>
+            </Nav>
+        </Container>
     )
 }
 
