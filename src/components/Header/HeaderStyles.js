@@ -9,6 +9,10 @@ export const Container = styled.div`
 	padding-top: 2rem;
     align-items: center;
 `
+export const Span = styled.span`
+	font-size: 2rem;
+    margin-left: .2em;
+`
 
 export const Div1 = styled.div`
 	grid-area: 1 / 1 / 2 / 2;
