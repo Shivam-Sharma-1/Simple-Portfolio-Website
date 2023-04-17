@@ -1,5 +1,5 @@
 import { Section, SectionDivider, SectionTitle } from "@/themes/GlobalComponents"
-import { GridContainer, BlogCard, Img, TitleContent, HeaderThree, Hr, CardInfo, TagList } from "./ProjectStyles"
+import { GridContainer, BlogCard, Img, TitleContent, HeaderThree, Hr, CardInfo, TagList, Tag } from "./ProjectStyles"
 import { projects } from "@/constants/constants"
 
 function Projects() {
@@ -18,6 +18,14 @@ function Projects() {
                             <Hr/>
                         </TitleContent>
                         <CardInfo>{description}</CardInfo>
+                        <div>
+                            <TitleContent>Stack</TitleContent>
+                            <TagList>
+                                {tags.map((tag, i) => (
+                                    <Tag key={i}>{tag}</Tag>
+                                ))}
+                            </TagList>
+                        </div>
                     </BlogCard>
                 ))}
             </GridContainer>
