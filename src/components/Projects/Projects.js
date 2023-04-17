@@ -1,5 +1,5 @@
 import { Section, SectionDivider, SectionTitle } from "@/themes/GlobalComponents"
-import { GridContainer, BlogCard, Img, TitleContent, HeaderThree, Hr, CardInfo, TagList, Tag } from "./ProjectStyles"
+import { GridContainer, BlogCard, Img, TitleContent, HeaderThree, Hr, CardInfo, TagList, Tag, UtilityList, ExternalLinks } from "./ProjectStyles"
 import { projects } from "@/constants/constants"
 
 function Projects() {
@@ -26,6 +26,10 @@ function Projects() {
                                 ))}
                             </TagList>
                         </div>
+                        <UtilityList>
+                            <ExternalLinks href={visit}>Code</ExternalLinks>
+                            <ExternalLinks href={source}>Source</ExternalLinks>
+                        </UtilityList>
                     </BlogCard>
                 ))}
             </GridContainer>
