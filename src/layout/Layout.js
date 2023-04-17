@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer/Footer'
 import Header from '../components/Header/Header'
 import { Container } from './LayoutStyles'
 
@@ -8,6 +9,7 @@ function Layout({children}) {
             <main>
                 {children}
             </main> 
+            <Footer/>
         </Container>
     )
 }
