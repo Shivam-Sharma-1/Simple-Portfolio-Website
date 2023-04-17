@@ -36,3 +36,9 @@ export const projects = [
       id: 3,
     },
   ];
+
+export const TimeLineData = [
+    { year: 2021, text: 'Started my journey', },
+    { year: 2022, text: 'Learnt basic frontend languages and data structure', },
+    { year: 2023, text: 'Learning advanced frontend concepts', },
+];
