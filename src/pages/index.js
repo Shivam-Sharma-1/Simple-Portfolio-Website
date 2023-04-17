@@ -1,5 +1,7 @@
+import BackgroundAnimation from "@/components/BackgroundAnimation/BackgroundAnimation";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
+import { Section } from "@/themes/GlobalComponents";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,7 +14,10 @@ export default function Home() {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <Header/>
-        <Hero/>
+        <Section grid>
+            <Hero/>
+            <BackgroundAnimation/>
+        </Section>
         </>
     )
 }
