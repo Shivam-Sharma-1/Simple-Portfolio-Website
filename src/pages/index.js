@@ -1,3 +1,4 @@
+import Accomplishments from "@/components/Accomplishments/Accomplisments";
 import BackgroundAnimation from "@/components/BackgroundAnimation/BackgroundAnimation";
 import Hero from "@/components/Hero/Hero";
 import Projects from "@/components/Projects/Projects";
@@ -24,6 +25,7 @@ export default function Home() {
             <Projects/>
             <Technologies/>
             <TimeLine/>
+            <Accomplishments/>
         </Layout>
         </>
     )
