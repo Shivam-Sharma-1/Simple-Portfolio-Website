@@ -42,3 +42,8 @@ export const TimeLineData = [
     { year: 2022, text: 'Learnt basic frontend languages and data structure', },
     { year: 2023, text: 'Learning advanced frontend concepts', },
 ];
+
+export const accomplishmentsData = [
+    { number: 0, text: 'Github Followers', },
+    { number: 1, text: 'Github Stars', }
+  ];
