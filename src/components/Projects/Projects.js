@@ -12,7 +12,7 @@ function Projects() {
                     <BlogCard key={id}>
                         {/* <Img src={image}/> */}
                         <TitleContent>
-                            <HeaderThree title>
+                            <HeaderThree title={title}>
                                 {title}
                             </HeaderThree>
                             <Hr/>
